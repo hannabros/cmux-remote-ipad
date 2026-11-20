@@ -1,6 +1,6 @@
 name: CmuxRemote
 options:
-  bundleIdPrefix: com.genie
+  bundleIdPrefix: com.hannabros
   deploymentTarget:
     iOS: "17.0"
 settings:
@@ -24,6 +24,7 @@ targets:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         CODE_SIGN_ENTITLEMENTS: CmuxRemote/CmuxRemote.entitlements
         TARGETED_DEVICE_FAMILY: "1,2"
+        PRODUCT_BUNDLE_IDENTIFIER: com.hannabros.CmuxRemoteIPad
       configs:
         Debug:
           APS_ENVIRONMENT: development
