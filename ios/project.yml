@@ -37,7 +37,7 @@ targets:
     info:
       path: CmuxRemote/Info.plist
       properties:
-        CFBundleDisplayName: "cmux Remote"
+        CFBundleDisplayName: "cmux iPad"
         CFBundleShortVersionString: "2.0.0"
         CFBundleVersion: "22"
         UIApplicationSceneManifest:
